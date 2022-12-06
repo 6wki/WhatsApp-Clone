@@ -559,10 +559,6 @@ a {
     padding: .15rem .4rem;
 }
 
-.thereply {
-    overflow: hidden;
-}
-
 .thereply > p {
     height: 100%;
     display: flex;
@@ -656,7 +652,7 @@ a {
 }
 
 .arrowhover {
-    height: .7rem;
+    height: 1rem;
     min-width: 2rem;
     display: flex;
     justify-content: flex-end;
@@ -664,7 +660,7 @@ a {
 }
 
 .arrowG {
-    box-shadow: 0 0 7px 5px #d5ffb1;
+    box-shadow: 0 0 10px 2px #d5ffb1;
     background-color: #d5ffb1;
 }
 
@@ -673,33 +669,17 @@ a {
     background-color: #fff;
 }
 
-.arrowG {
+.arrowhover {
     position: absolute;
     right: 0;
 }
 
-.arrowG img {
+.arrowhover img {
     position: absolute;
     width: 1rem;
     right: -.5rem;
     cursor: pointer;
-}
-
-.arrowW {
-    position: absolute;
-    left: 0;
-}
-
-.arrowW img {
-    position: absolute;
-    width: 1rem;
-    left: -.5rem;
-    cursor: pointer;
-}
-
-.thereply:hover .arrowW img {
-    left: .5rem;
-    opacity: 1;
+    opacity: 1!important;
 }
 
 .arrowhover img,
@@ -712,7 +692,7 @@ a {
     opacity: 1;
 }
 
-.thereply:hover .arrowG img {
+.thereply:hover .arrowhover img {
     right: .1rem;
     opacity: 1;
 }
