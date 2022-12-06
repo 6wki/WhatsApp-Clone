@@ -627,6 +627,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .emoji img {
@@ -695,6 +696,37 @@ a {
 .thereply:hover .arrowhover img {
     right: .1rem;
     opacity: 1;
+}
+
+.react {
+    background-color: #0000003d;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.react img {
+    width: calc(100% - 6px);
+}
+
+.leftr {
+    right: -1.9rem;
+}
+
+.rightr {
+    left: -1.9rem;
+}
+
+.mepop:hover .react {
+    visibility: visible;
 }
 
 @media (max-width:1441px) {
