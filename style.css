@@ -528,7 +528,7 @@ a {
     right: 0;
     left: 0;
     display: flex;
-    padding: 1rem 4rem;
+    padding: 1rem 0;
     gap: 1rem;
     flex-direction: column;
     overflow: auto;
@@ -544,6 +544,7 @@ a {
 
 .mepop {
     width: 100%;
+    padding: 0 4rem;
 }
 
 .thereply,
