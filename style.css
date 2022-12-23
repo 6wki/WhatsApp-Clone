@@ -560,10 +560,6 @@ a {
     padding: .15rem .4rem;
 }
 
-.thereply {
-    overflow: hidden;
-}
-
 .thereply > p {
     height: 100%;
     display: flex;
